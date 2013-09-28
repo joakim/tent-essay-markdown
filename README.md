@@ -26,5 +26,5 @@ An alternative to the [Essay](https://tent.io/docs/post-types#essay) post type, 
 - [Tent issue for adding Markdown support to Essay](https://github.com/tent/tent.io/issues/200) - Background to this post type
 - [Markdown Community](http://markdown.github.io/) - Unofficial page for the Markdown community
 - [Official project page](http://daringfireball.net/projects/markdown) - Original spec, last updated in 2004
-- [W3C Community Group](http://www.w3.org/community/markdown/) - Has been dormant since late 2012
+- [W3C Community Group](http://www.w3.org/community/markdown/) - Attempt to standardize Markdown, has been dormant since late 2012
 - [Babelmark 2](http://johnmacfarlane.net/babelmark2/) - Tool to compare Markdown implementations
