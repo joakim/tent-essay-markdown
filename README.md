@@ -13,10 +13,13 @@ An alternative to the [Essay](https://tent.io/docs/post-types#essay) post type, 
 
 #### Issues
 
-- Standard Markdown, Tent Flavored Essay Markdown, or (for the sake of argument) support for any flavor of Markdown?
-- Being compatible with Tent Flavored Markdown for `status` posts would allow apps to automagically "upgrade" a `status` post to this post type if it becomes larger than 256 characters. Though, `status` post's Tent Flavored Markdown is incompatible with standard Markdown (syntax for emphasis and strikethrough)..
-- Might not get support from all Tent blogging apps (there's already the Essay post type for HTML only). Far from ideal if users are limited to "Essay Markdown compatible" apps to use this. Two-way conversion between HTML<->Markdown could offer compatibility between the two post types, but sounds like a dirty workaround.
-- Markdown is a living markup language with several dialects as well as varying output depending on the implementation used. Something to be aware of.
+- Should it support only standard Markdown, Tent Flavored Markdown also, or (for the sake of argument) any flavor of Markdown? Keep in mind the requirements for apps wanting to support this post type.
+- Being compatible with Tent Flavored Markdown (used by `status` posts) would allow apps to automagically "upgrade" a `status` post to this post type if it becomes larger than 256 characters. (However, see next point..)
+- Tent Flavored Markdown is incompatible with standard Markdown (syntax for emphasis and strikethrough differ).
+- This post type won't get support from all Tent blogging apps, as there's already the `essay` post type that supports HTML only. Users will be limited to "Markdown Essay" compatible apps.
+- Other users may also only be able to subscribe to HTML based `essay` posts. Apps creating Markdown Essay posts may therefore want to store a compiled HTML copy as an `essay` post to cater to those. One would obviously not want to edit the copy!
+- Two-way conversion between HTML<->Markdown could offer compatibility with the `essay` type, and allow editing of either "version", but this sounds like a very dirty and hairy workaround.
+- Markdown is a non-standardized and living markup language with several dialects as well as differing output depending on the implementation used. Just something to be aware of.
 
 #### Links
 
