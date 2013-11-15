@@ -13,7 +13,7 @@ An alternative to the [Essay](https://tent.io/docs/post-types#essay) post type, 
 
 #### Issues
 
-- Should it support only standard Markdown, Tent Flavored Markdown also, or (for the sake of argument) any flavor of Markdown? Keep in mind the requirements for apps wanting to support this post type.
+- Should it support only standard Markdown, Tent Flavored Markdown, or (for the sake of argument) any flavor of Markdown? Keep in mind the requirements for apps wanting to support this post type.
 - Being compatible with Tent Flavored Markdown (used by `status` posts) would allow apps to automagically "upgrade" a `status` post to this post type if it becomes larger than 256 characters. (Although, see next point..)
 - [Tent Flavored Markdown](https://tent.io/docs/post-types#markdown) is incompatible with standard Markdown (syntax for emphasis and strikethrough differ, linebreak handling is compatible with most modern flavors however).
 - This post type wouldn't get support from all Tent blogging apps, as we already have the `essay` post type that supports HTML only. Users would be limited to Markdown Essay compatible apps when using this post type.
