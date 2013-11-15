@@ -28,4 +28,4 @@ An alternative to the [Essay](https://tent.io/docs/post-types#essay) post type, 
 - [Official project page](http://daringfireball.net/projects/markdown) - Original spec, last updated in 2004
 - [W3C Community Group](http://www.w3.org/community/markdown/) - Attempt to standardize Markdown, has been dormant since late 2012
 - [Babelmark 2](http://johnmacfarlane.net/babelmark2/) - Tool to compare Markdown implementations
-- [Haunted Markdown](https://github.com/TryGhost/Ghost/wiki/Haunted-Markdown) - Ghost's flavor of Markdown, sharing some of these concerns (work-in-progress)
+- [Haunted Markdown](https://github.com/TryGhost/Ghost/wiki/Haunted-Markdown) - Ghost's flavor of Markdown, work-in-progress, currently evaluating options
